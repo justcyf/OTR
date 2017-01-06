@@ -1,0 +1,35 @@
+##exp1
+###train on 22 and test on 8 videos to test generalization
+- which 22
+- which 8
+###test on 3 extra with ground truth of face instead of human body that included in YOLO sys.
+
+##video data
+-OTB-30 ?
+-100
+-30
+-MOT 2016
+##benchmark 
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7001050&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7001050
+
+##paper OTB
+###dataset
+There exist several data-
+sets for object tracking in surveillance scenarios, such as the
+VIVID [14], CAVIAR [24], and PETS [23] databases.
+-target: humans or small cars
+-background: static
+
+we provide a large benchmark dataset with ground-truth annotations
+and attributes (e.g., occlusion, fast motion, or illumination
+variation)
+The code library, annotated dataset, and all the tracking results
+are available at http://pami.visual-tracking.net.
+###tracking sys framework
+Recently, significant efforts have been made to make
+tracking code available for evaluation, e.g., OAB [27], IVT
+[65], MIL [5], L1 [53], and TLD [39] algorithms. These track-
+ing algorithms accommodate different input formats (e.g.,
+avi videos or raw image sequences) and motion models
+(e.g., 2D translation, similarity or affine transforms) with
+various output formats (e.g., position or extent).
